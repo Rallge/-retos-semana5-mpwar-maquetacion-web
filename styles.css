@@ -1,38 +1,43 @@
 body {
-  width: 100vh;
+  height: 100vh;
   display: grid;
   border: 1px solid black;
-  grid-template-rows: 3fr 7fr 5fr;
-  grid-template-columns: 15fr;
+  grid-template-rows: 1fr 9fr 2fr;
   font-weight: bold;
   font-size: 1rem;
 }
 
 main {
   display: grid;
-  grid-template-columns: 3fr 10fr 2fr;
+  grid-template-columns: 1fr 8fr 1fr;
+/*   grid-template-areas: "left center right"; */
 }
 
 header {
   background-color: #9ffad5;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .left {
   background-color: #73ded0;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 .right {
   background-color: #73f5a2;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 section {
   background-color: #60b077;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 footer {
   background-color: #f6fff9;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
