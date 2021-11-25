@@ -1,0 +1,18 @@
+.chess {
+  display: grid;
+  border: 2px solid black;
+  /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-family: monospace;
+  font-size: 3rem;
+}
+
+main > div {
+  border: 1px solid black;
+}
+
+div:nth-child(2n + 1) {
+  background-color: black;
+  color: white;
+}
