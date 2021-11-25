@@ -1,25 +1,38 @@
 body {
   width: 100vh;
-  font-family: monospace;
   display: grid;
   border: 1px solid black;
+  grid-template-rows: 3fr 7fr 5fr;
+  grid-template-columns: 15fr;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 10fr 2fr;
 }
 
 header {
   background-color: #9ffad5;
+  padding-left: 1rem;
 }
 
 .left {
   background-color: #73ded0;
+  padding-left: 1rem;
 }
 .right {
   background-color: #73f5a2;
+  padding-left: 1rem;
 }
 
 section {
   background-color: #60b077;
+  padding-left: 1rem;
 }
 
 footer {
   background-color: #f6fff9;
+  padding-left: 1rem;
 }
