@@ -4,7 +4,7 @@ body{
 }
 .chess {
   display: grid;
-  border: 2px solid black;
+  border: 1px solid black;
   /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -21,7 +21,7 @@ div:nth-child(2n + 1) {
   color: white;
 }
 
-div.chess.cuadrado:nth-child(2n + 1) {
+div.chess:nth-child(2n + 1) {
   background-color: white;
   color: black;
 }
